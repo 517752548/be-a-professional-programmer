@@ -8,6 +8,8 @@
 
 这里的东西会持续积累下去，欢迎Star，也欢迎发PR给我。
 
+[Thonatos.Yang](https://github.com/thonatos)整理的GitBook版本，阅读体验更佳：<https://thonatos.gitbooks.io/be-a-professional-programmer/>
+
 ## 目录
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -96,7 +98,9 @@
 - 技术的本质
 - 软件随想录
 - 计算机程序设计艺术
-- 职业篇：程序员的自我修养,程序员修炼之道,高效能程序员的修炼
+- 程序员的自我修养：链接、装载与库
+- 程序员修炼之道
+- 高效能程序员的修炼
 - 《精神分析引论》弗洛伊德
 - 《失控》《科技想要什么》《技术元素》凯文凯利
 - 程序开发心理学
@@ -105,6 +109,7 @@
 
 ### 大牛博客
 
+- [awesome-programmers](https://github.com/rekihattori/awesome-programmers) - 各领域大牛，值得纪念的程序员们
 - 云风（游戏界大牛）: <http://blog.codingnow.com/>
 - 王垠（不少文章喷到蛮有道理）：<http://www.yinwang.org/>
 - 冰河-伞哥(Lisp大牛)：<http://tianchunbinghe.blog.163.com/>
@@ -131,9 +136,16 @@
 - [awesome-AppSec(系统安全)](https://github.com/paragonie/awesome-appsec)
 - [awesome-datascience](https://github.com/okulbilisim/awesome-datascience)
 - [awesome-dataviz](https://github.com/fasouto/awesome-dataviz) - 数据可视化库及资料
+- [awesome-es](https://github.com/jacksu/awesome-es)
+- [awesome-comment](https://github.com/Blankj/awesome-comment) - 神注释大全
+- [awesome-hacking](https://github.com/carpedm20/awesome-hacking) - 黑客工具箱
+- [awesome-machine-learning](https://github.com/jacksu/machine-learning) - 机器学习资料
 
 ** 书籍资料 **
 
+- [Every Programmer Should Know](https://github.com/mr-mig/every-programmer-should-know)
+- [Latency Numbers Every Programmer Should Know](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
+- [system-design-primer](https://github.com/donnemartin/system-design-primer): 系统设计入门
 - [free-programming-books](https://github.com/bingwen/free-programming-books/blob/master/free-programming-books-ch.md) [中文版](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
 - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 - [《程序员编程艺术 — 面试和算法心得》](https://github.com/julycoding/The-Art-Of-Programming-By-July)
@@ -209,12 +221,14 @@
 
 ### 平台工具
 
+- [Swagger](http://swagger.io/): RESTful API设计工具，前后端分离项目必备，顺便推荐下[Easy Mock](https://www.easy-mock.com/)
 - Phabricator: 软件开发平台，Facebook出品，现已开源，CodeReview神器（从这个往下一直到GitLab之间的工具统统可以忽略了）
 - Redmine/Trac：项目管理平台
 - Jenkins/Jira(非开源)：持续集成系统（Apache Continuum，这个是Apache下的CI系统，还没来得及研究）
 - git，svn：源代码版本控制系统
 - GitLab/Gitorious：构建自己的GitHub服务器
-- Postman:RESTful，api测试工具，HTTP接口开发必备神器
+- [AppVeyor](https://ci.appveyor.com/) - 云端持续集成工具，可以与GitHub搭配使用
+- Postman:RESTful，api测试工具，HTTP接口开发必备神器；可替代工具：[Insomnia](https://insomnia.rest/)
 - [Lottie](http://airbnb.design/lottie/): AE动画变原生代码，设计师必备
 - Sonar：代码质量管理平台
 - Nessus: 系统漏洞扫描器
@@ -246,6 +260,7 @@
 
 ### 常用工具
 
+- [EditorConfig](http://editorconfig.org/): 让我们在各种不同IDE或编辑器下写代码保持风格一致
 - [Mac下的神兵利器](https://github.com/hzlzh/Best-App)
 - [asciinema](https://asciinema.org/): 终端录屏神器
 - Fiddler：非常好用的Web前端调试工具，当然是针对底层http协议的，一般情况使用Chrome等自带的调试工具也足够了，特殊情况还得用它去处理
@@ -300,6 +315,7 @@
 
 ### 第三方服务
 
+- [Let's Encrypt](https://letsencrypt.org/): 免费、自动化、开放的证书签发服务
 - DnsPod：一个不错的智能DNS服务解析提供商
 - DigitalOcean：海外的云主机提供商，价格便宜，磁盘是SSD的，用过一段时间整体上还可以，不过毕竟是海外的，网速比较慢。国内的就是阿里云了。还有个比较知名的是：Linode，据说速度上比DigitalOcean好很多
 - 移动端推送服务：个推、JPush、云巴
@@ -352,6 +368,7 @@
 - Druid: 实时数据分析存储系统
 - Ambari: 大数据平台搭建、监控利器；类似的还有CDH
 - Tachyon：分布式内存文件系统
+- [Greenplum](http://greenplum.org/): 基于PostgreSQL的分布式MPP数据库
 - Mesos：计算框架一个集群管理器，提供了有效的、跨分布式应用或框架的资源隔离和共享
 - Impala：新一代开源大数据分析引擎，提供Sql语义，比Hive强在速度上
 - presto: facebook的开源工具，大数据分布式sql查询引擎
@@ -388,7 +405,9 @@
 - Sea.js: js模块化
 - knockout.js：MVVM开发前台，绑定技术
 - Angular.js: 使用超动感HTML & JS开发WEB应用！
-- Highcharts.js，Flot:常用的Web图表插件
+- Highcharts.js, ECharts, Flot: 常用的数据可视化库
+- D3.js: 是一个基于JavaScript数据展示库（类似的还有P5.js）
+- [Vega](https://vega.github.io/vega/): 基于D3的可视化语法
 - NVD3: 基于d3.js的图表库
 - Raw：非常不错的一款高级数据可视化工具
 - Rickshaw:时序图标库，可用于构建实时图表
@@ -405,7 +424,6 @@
 - pace.js：页面加载进度条
 - bower：Web包管理器
 - jsnice：有趣的js反编译工具，猜压缩后的变量名，http://www.jsnice.org/
-- D3.js: 是一个基于JavaScript数据展示库（类似的还有P5.js）
 - Zepto.js：移动端替代jQuery的东东，当然也可以使用jquery-mobile.
 - UI框架：Foundation，Boostrap，Pure，EasyUI，Polymer
 - 前段UI设计师必去的几个网站：Dribbble，awwwards，unmatchedstyle，UIMaker
@@ -459,12 +477,14 @@
 - [Glossary of Scala and FP terms](http://docs.scala-lang.org/glossary/)
 - [Metascala: A JVM written in Scala](https://github.com/lihaoyi/Metascala)
 - [LMS: Program Generation and Embedded Compilers in Scala](https://scala-lms.github.io/)
+- [parboiled2](https://github.com/sirthias/parboiled2): 性能很好的parser
 
 ### Java
 
 - 常用的IDE：IntelliJ IDEA(强烈推荐)，Eclipse，Netbeans
 - [fastutil](http://fastutil.di.unimi.it/): 性能更好的Java集合框架
 - Guava: 谷歌的Java工具包，应用广泛
+- [Lagom](https://www.lagomframework.com/): 微服务框架，提供了Java、Scala API
 - Curator：Netflix公司开源的一个Zookeeper client library，用于简化Zookeeper客户端编程，现在已经是apache下的一个独立项目了。Spark的HA也用的这货。
 - Rx(Reactive Extensions)框架：Vert.x, RxJava(Android中用的比较多),  Quasar
 - FindBugs: 代码静态分析工具，找出代码缺陷
